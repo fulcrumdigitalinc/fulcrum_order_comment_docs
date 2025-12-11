@@ -21,7 +21,7 @@ It adds a configuration UI inside the Commerce Admin panel for enabling/disablin
 
 ## Overview
 
-The extension is only responsible for displaying the Order Comment column in the Orders Grid using the Admin UI SDK, pulling the data via Adobe Commerce REST Orders API.\
+The extension is only responsible for displaying the Order Comment column in the Orders Grid using the Admin UI SDK, pulling the data via Adobe Commerce REST Orders API.
 
 **IMPORTANT**: The process of saving the comment must be done by the user, in their preferred storefront, using Magento's native APIs (GraphQL or REST API) to save the custom attribute named "**order_comment**" in the Order object. [More details below](#usage).
 
